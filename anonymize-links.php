@@ -8,7 +8,7 @@ Author: Schalk Burger
 Author URI: http://schalkburger.za.net
 */
 
-/*  Copyright 2012  Schalk Burger  (email : schalkb@gmail.com)
+/*  Copyright 2012  Schalk Burger (Based on the WP Blank Referer by blackhatzen)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 

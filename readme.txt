@@ -16,6 +16,8 @@ For example, this plugin will automatically convert all external links to this f
 
 This is an anonymous link to example.com which prevents the original site from appearing as a referrer in the log files of the referred page.
 
+(Based on the WP Blank Referer by blackhatzen)
+
 == Installation ==
 
 
