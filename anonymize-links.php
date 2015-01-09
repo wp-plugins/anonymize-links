@@ -3,13 +3,12 @@
 Plugin Name: Anonymize Links
 Plugin URI: http://schalkburger.za.net/wordpress-anonymize-links
 Description: Automatically anonymizes all the external links on your website, which prevents the original site from appearing as a referrer in the logfiles of the referred page.
-Version: 1.0
+Version: 1.1
 Author: Schalk Burger
 Author URI: http://schalkburger.za.net
 */
 
-/*  Copyright 2012  Schalk Burger (Based on the WP Blank Referer by blackhatzen)
-
+/*  
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
     published by the Free Software Foundation.
@@ -83,13 +82,13 @@ final class anonymize_links {
 		?>			
 		
 		<form method="POST" action="">
+		<p>Do not anonymize the following domains / keywords:</p>
 		
-		<table class="form-table">
-			<tr><td><p>Do not anonymize the following domains / keywords:</p></td></tr>
+		<table class="form-table">			
 			<tr valign="top">				
 				<td>
 					<input type="text" class="anonym_input" id="protected_links" name="protected_links" size="100" value="<?php echo get_option('anonymize_links_service')?>">		
-					<br/><span class="description">Comma separated: domain1.tld, domain2.tld, keyword</span>		
+					<p class="description">Comma separated: domain1.tld, domain2.tld, keyword</p>		
 				</td>
 			</tr>
 		</table>

@@ -43,7 +43,7 @@ function auto_anonyminize()
 		
 		if(a_to_vh == false)
 		{
-			a_to_ve[i].href = "http://anonym.to?" + a_to_vi;		
+			a_to_ve[i].href = "https://href.li/?" + a_to_vi;		
 			a_to_vb++;
 			a_to_vc += i + ":::" + a_to_ve[i].href + "\n" ;	
 		}

@@ -3,20 +3,22 @@ Contributors: Schalk Burger
 Donate link: http://schalkburger.za.net
 Tags: anonymize, anonymise, mask, hide referrer, blank referrer, referral, logs, visitors, privacy
 Requires at least: 2.0.2
-Tested up to: 3.9
-Stable tag: 1.0
+Tested up to: 4.1
+Stable tag: 1.1
 
-Anonymize all your external links with the anonym.to service.
+Anonymize all your external links with the href.li service.
 
 == Description ==
 
 You can use this plugin to prevent your site from appearing in the server logs of referred pages as a referrer. The operators of the referred pages cannot see where their visitors come from any more. 
 
-For example, this plugin will automatically convert all external links to this format http://anonym.to/?http://example.com.
+For example, this plugin will automatically convert all external links to this format 
+
+https://href.li/?http://example.com/
 
 This is an anonymous link to example.com which prevents the original site from appearing as a referrer in the log files of the referred page.
 
-(Based on the WP Blank Referer by blackhatzen)
+Plugin based on the WP Blank Referer by blackhatzen.
 
 == Installation ==
 
@@ -38,6 +40,9 @@ Some people do it privacy. Some people do it to keep their sources unknown.
 [Click here](http://en.wikipedia.org/wiki/Referer) for Wikipedia's description.
 
 == Changelog ==
+
+= 1.1 =
+* Updated the plugin to use the href.li service
 
 = 1.0 =
 * Initial release
