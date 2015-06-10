@@ -3,7 +3,7 @@ Contributors: Schalk Burger
 Donate link: http://schalkburger.za.net
 Tags: anonymize, anonymise, mask, hide referrer, blank referrer, referral, logs, visitors, privacy
 Requires at least: 2.0.2
-Tested up to: 4.1
+Tested up to: 4.2.2
 Stable tag: 1.1
 
 Anonymize all your external links with the href.li service.
